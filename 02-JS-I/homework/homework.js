@@ -1,7 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = "Hola";
+const nuevaString ="Hola";
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 4;
@@ -62,9 +62,9 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x===y);
+  if (x===y)
   {return true} 
-  else;
+  else
   {return false};
 
 }
@@ -75,8 +75,8 @@ function tienenMismaLongitud(str1, str2) {
   // Tu código:
   if (str1.length ===str2.length)
   {
-  return true};
-  else;
+  return true}
+  else
   {return false};
 
 }
@@ -85,8 +85,8 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num < 90);
-  {return true};
+  if (num < 90)
+  {return true}
   else
   {return false};
 }
@@ -174,7 +174,7 @@ function esPositivo(numero) {
   else if (numero > 0)
   {return "Es positivo";}
   else
-  {return "Es negativo";}}
+  {return "Es negativo";}
 
 }
 
@@ -235,12 +235,13 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if (letra.length > 1)
-  {return "Dato incorrecto";}
-  if (letra === "a" , letra === "e" , letra === "i",letra === "o", letra === "u")
-  {return "Es vocal";}
-  else 
-  {return "Dato incorrecto";}
+  if(letra.length > 1){
+    return "Dato incorrecto"
+  }
+  if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
+    return "Es vocal"
+  }
+  return "Dato incorrecto"
 
 
 }
